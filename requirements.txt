@@ -17,3 +17,5 @@ aiofiles
 
 # frontend
 streamlit
+
+matplotlib
