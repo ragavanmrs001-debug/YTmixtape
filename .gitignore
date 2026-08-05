@@ -9,4 +9,4 @@ wheels/
 # Virtual environments
 .venv
 
-experiment_notebooks/*.mp3
+* experiment_notebooks
