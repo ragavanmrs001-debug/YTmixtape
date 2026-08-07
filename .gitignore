@@ -8,7 +8,27 @@ wheels/
 
 # Virtual environments
 .venv
+DJmix/
 
-mixtape
-ouput
-images
+# User data directories (contents are generated at runtime)
+mixtape/*.mp3
+mixtape/*.wav
+output/
+images/*.jpg
+images/*.jpeg
+images/*.png
+
+# Keep directory structure
+!mixtape/.gitkeep
+!output/.gitkeep
+
+# OS files
+.DS_Store
+
+# Temp files
+*.tmp
+tem_image.*
+
+# Experiment notebooks (keep but ignore outputs)
+experiment_notebooks/ouput/
+experiment_notebooks/mixtape/

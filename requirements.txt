@@ -1,13 +1,13 @@
-# cross fade
+# ── Audio Processing ────────────────────────
 pydub
 ffmpeg-python
 
-# beat matching
+# ── Beat Analysis (optional) ────────────────
 librosa
 numpy
 scipy
 
-# software
+# ── FastAPI Backend ─────────────────────────
 fastapi
 uvicorn[standard]
 python-multipart
@@ -15,7 +15,8 @@ Pillow
 requests
 aiofiles
 
-# frontend
+# ── Streamlit Frontend ──────────────────────
 streamlit
 
+# ── Visualization ──────────────────────────
 matplotlib
