@@ -9,6 +9,6 @@ wheels/
 # Virtual environments
 .venv
 
-* experiment_notebooks
-* /Users/ragava/Documents/GitHub/YTmixtape/experiment_notebooks/mixtape
-* /Users/ragava/Documents/GitHub/YTmixtape/experiment_notebooks/output
+mixtape
+ouput
+images
